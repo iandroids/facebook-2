@@ -13,7 +13,7 @@ bower install backbone.api.facebook
 
 ## Usage
 
-The plugin will try to create a global namespace ```Facebook``` that will host all the Models/Views/Collections mirrored from Backbone.API.Facebook
+The plugin will try to create a global namespace ```[Facebook](https://aapks.com/apk/facebook/)``` that will host all the Models/Views/Collections mirrored from Backbone.API.Facebook
 
 When the web page is loaded, passing the ```appId``` and ```uri``` for reference in the api requests
 
@@ -32,7 +32,7 @@ var friends = new Facebook.Collections.Friends();
 var me = new Facebook.Models.Me();
 ```
 
-Facebook's UI is treated as the template method for the Views
+[Facebook](https://aapks.com/apk/facebook/)'s UI is treated as the template method for the Views
 
 ```
 var post = new Facebook.Models.Post();
